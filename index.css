@@ -152,4 +152,11 @@ nav > ul > li:hover > a{
   background-size: cover;
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation_logo{
+  width: 40%;
 }

@@ -10,6 +10,7 @@ body{
 	background-color: black;
 	color: white;
 	font-family: 'Roboto';
+  padding: 20px;
 }
 
 header{
@@ -198,5 +199,5 @@ a{
 }
 
 p{
-  font-size: 12px;
+  font-size: 20px;
 }

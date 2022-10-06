@@ -38,6 +38,9 @@ header .menu-deroulant ul{
 
 .div_logo p{
   color: white;
+  margin: 3px;
+  font-weight: 900;
+
 }
 
 nav {
@@ -196,6 +199,7 @@ nav > ul > li:hover > a{
 
 a{
   color: white;
+  text-decoration: none;
 }
 
 p{

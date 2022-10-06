@@ -25,10 +25,6 @@ header .menu-deroulant ul{
 	flex-direction: column;
 }
 
-.div_logo{
-  display: flex;
-}
-
 .a_num{
   display: flex;
 }
@@ -142,4 +138,6 @@ nav > ul > li:hover > a{
   animation: apparitionSousMenu 1s forwards;
 }
 
-.
+.presentation{
+  background-image: url(fond.png);
+}

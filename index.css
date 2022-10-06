@@ -161,7 +161,7 @@ nav > ul > li:hover > a{
   width: 40%;
 }
 
-.image_text{
+.img_text{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

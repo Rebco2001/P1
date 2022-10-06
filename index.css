@@ -177,3 +177,7 @@ nav > ul > li:hover > a{
 .presentation_image_1{
   width: 35%;
 }
+
+.presentation_image_1 img{
+  width: 100%;
+}

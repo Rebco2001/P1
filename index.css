@@ -35,6 +35,10 @@ header .menu-deroulant ul{
   align-items: center;
 }
 
+.div_logo p{
+  color: white;
+}
+
 nav {
   width: 100%;
   font-size: 14px;

@@ -160,3 +160,20 @@ nav > ul > li:hover > a{
 .presentation_logo{
   width: 40%;
 }
+
+.image_text{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.presentation_texte{
+  width: 45%;
+}
+
+.presentation_image_1{
+  width: 35%;
+}

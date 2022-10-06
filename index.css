@@ -181,3 +181,22 @@ nav > ul > li:hover > a{
 .presentation_image_1 img{
   width: 100%;
 }
+
+.images_3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.presentation_image{
+  width: 30%;
+}
+
+
+a{
+  color: white;
+}
+
+p{
+  font-size: 12px;
+}

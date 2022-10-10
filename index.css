@@ -59,6 +59,7 @@ nav > ul {
   display: flex;
   text-align: center;
   height: 100%;
+  border-bottom: 2px solid #FFFFFF;
 }
  
 nav ul {

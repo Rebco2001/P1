@@ -6,6 +6,13 @@ font-family: 'Roboto', sans-serif;
 	display: flex;
 }
 
+body{
+	background-color: #000000;
+	color: white;
+	font-family: 'Roboto';
+  margin: 0px;
+}
+
 a{
   color: white;
   text-decoration: none;
@@ -13,13 +20,6 @@ a{
 
 p{
   font-size: 20px;
-}
-
-body{
-	background-color: #000000;
-	color: white;
-	font-family: 'Roboto';
-  margin: 0px;
 }
 
 header{
@@ -31,7 +31,9 @@ header{
   z-index: 2;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: 2%;
+  column-gap: inherit;
+  height: 10vh;
+  top: 0px;
 }
 
 header .menu-deroulant ul{
@@ -101,64 +103,16 @@ nav > ul > li:hover {
     border-bottom: 2px solid #FFFFFF;
 }
 
-.presentation{
+.page{
   position: relative;
   z-index: 0;
-  background-image: url(fond.png);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
+  top: 10vh;
+  padding: 2%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.presentation_logo{
-  width: 40%;
-}
-
-.page{
-  padding: 5vw;
-  display: flex;
-  row-gap: 50px;
   flex-direction: column;
-}
-
-.img_text{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   align-content: center;
-  justify-content: space-between;
-  row-gap: 20px;
-}
-
-.presentation_texte{
-  width: 45%;
-}
-
-.presentation_image_1{
-  width: 35%;
-}
-
-.presentation_image_1 img{
-  object-fit: cover;
-  width: 30vw;
-  height: 35vh;
-}
-
-.images_3{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.images_3 img{
-  width: 25vw;
-  height: 35vh;
-  object-fit: cover;
+  align-items: center;
 }
 
 button {
@@ -168,8 +122,6 @@ button {
   text-align: center;
   font-size: 18px;
   padding: 5px;
-  width: 200px;
-  height: 50px;
   cursor: pointer;
   border: 2px double transparent;
   transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
@@ -180,7 +132,46 @@ button:hover {
   background-color: transparent;
 }
 
-.bouton_catalogue{
+.boutons{
+  width: 100%;
   display: flex;
-  column-gap: 20px;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.boutons button{
+  width: 40%;
+}
+
+.boutons a{
+  width: 40%;
+}
+
+.boutons a button{
+  width: 100%;
+}
+
+.bloc_articles{
+  display: flex;
+  column-gap: 3%;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+
+.articles{
+  width: 30%;
+  height: 100%;
+}
+
+footer{
+  display: flex;
+  padding: 2%;
+  column-gap: 3%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer{
+  width: 30%;
 }

@@ -22,6 +22,10 @@ p{
   font-size: 20px;
 }
 
+h3{
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
 header{
   position: fixed;
   display: flex;
@@ -59,6 +63,10 @@ header .menu-deroulant ul{
   margin: 3px;
   font-weight: 900;
 
+}
+
+.logo{
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 nav {
@@ -137,14 +145,15 @@ button:hover {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
+  margin: 2%;
 }
 
 .boutons button{
-  width: 40%;
+  width: 30%;
 }
 
 .boutons a{
-  width: 40%;
+  width: 30%;
 }
 
 .boutons a button{
@@ -156,11 +165,43 @@ button:hover {
   column-gap: 3%;
   padding: 2%;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 .articles{
-  width: 30%;
+  width: 27%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: unset;
+  margin: 0% 0% 2% 0%;
+  padding: 2%;
+}
+
+img{
+  border-style: none;
+  object-fit: cover;
+  width: 90 %;
+  height: 250px;
+}
+
+.gallerie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloc_images{
+  display: flex;
+  padding: 0% 10%;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.bloc_images img{
+  width: 25%;
+  height: auto;  
+  margin: 0% 3% 2% 3%;
 }
 
 footer{
@@ -170,6 +211,8 @@ footer{
   align-items: center;
   justify-content: center;
   align-content: center;
+  position: relative;
+  top: 50px;
 }
 
 .footer{

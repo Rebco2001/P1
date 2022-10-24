@@ -22,6 +22,10 @@ body{
   margin: 0px;
 }
 
+h1{
+  text-shadow: 1px 1px 10px white;
+}
+
 header{
   position: fixed;
   display: flex;
@@ -204,5 +208,36 @@ button:hover {
   background: linear-gradient(#EFCB58,#CC57C7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 250%;
+  font-size: 50px;
+}
+
+.process{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.process h1{
+  width: 100%;
+}
+
+.sous_procss{
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  height: 250px;
+}
+
+.sous_procss i{
+  background: linear-gradient(#EFCB58,#CC57C7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  padding: 5%;
+  text-align: center;
+}
+
+.sous_procss p{
+  text-align: justify;
 }

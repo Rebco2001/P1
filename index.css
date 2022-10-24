@@ -199,3 +199,10 @@ button:hover {
   margin: 0px;
   margin-bottom: 20px;
 }
+
+.maps > p > i {
+  background: linear-gradient(#EFCB58,#CC57C7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 250%;
+}

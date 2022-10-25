@@ -2,14 +2,14 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 .header{
-	font-family: 'Roboto';
-	display: flex;
+  font-family: 'Roboto';
+  display: flex;
 }
 
 body{
-	background-color: #000000;
-	color: white;
-	font-family: 'Roboto';
+  background-color: #000000;
+  color: white;
+  font-family: 'Roboto';
   margin: 0px;
 }
 
@@ -20,6 +20,20 @@ a{
 
 p{
   font-size: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px white;
+}
+
+h2{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px white;
+}
+
+h3{
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 header{
@@ -37,8 +51,8 @@ header{
 }
 
 header .menu-deroulant ul{
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .a_num{
@@ -59,6 +73,10 @@ header .menu-deroulant ul{
   margin: 3px;
   font-weight: 900;
 
+}
+
+.logo{
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
 }
 
 nav {

@@ -209,6 +209,7 @@ button:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
+  padding: 1%;
 }
 
 .process{
@@ -240,4 +241,34 @@ button:hover {
 
 .sous_procss p{
   text-align: justify;
+}
+
+.boutons{
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.boutons button{
+  width: 30%;
+}
+
+.boutons a{
+  width: 30%;
+}
+
+.boutons a button{
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0% 5%;
+}
+
+footer p{
+  font-size: 10px;
 }

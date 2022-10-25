@@ -265,10 +265,10 @@ button:hover {
 
 footer{
   display: flex;
-  flex-direction: row-reverse;
-  margin: 0% 5%;
+  justify-content: center;
+  
 }
 
 footer p{
-  font-size: 10px;
+  font-size: 12px;
 }

@@ -131,3 +131,13 @@ button:hover {
   border: 2px double #C6A237;
   background-color: transparent;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer p{
+  font-size: 12px;
+}

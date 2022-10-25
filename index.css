@@ -23,7 +23,13 @@ body{
 }
 
 h1{
-  text-shadow: 1px 1px 10px white;
+  font-size: 25px;
+}
+
+h2{
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 3px white;
+    font-size: 32px;
 }
 
 header{
@@ -219,7 +225,7 @@ button:hover {
   justify-content: space-around;
 }
 
-.process h1{
+.process h2{
   width: 100%;
 }
 

@@ -22,6 +22,16 @@ p{
   font-size: 20px;
 }
 
+h1{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px white;
+}
+
+h2{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px white;
+}
+
 h3{
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -202,6 +212,24 @@ img{
   width: 25%;
   height: auto;  
   margin: 0% 3% 2% 3%;
+}
+
+.descriptif i{
+  background: linear-gradient(#EFCB58,#CC57C7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  padding: 1%;
+  text-align: center;
+}
+
+.descriptif, .descriptif > p {
+  font-size: 25px;
+}
+
+.jaune{
+  color: #C6A237;
+  font-weight: bold;
 }
 
 footer{

@@ -133,6 +133,41 @@ nav > ul > li:hover {
   align-items: center;
 }
 
+.description{
+  display: flex;
+  justify-content: space-around;
+}
+
+.description img{
+  width: 25%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.description p{
+  width: 45%;
+  font-size: 25px;
+}
+
+.prestations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloc_images{
+  display: flex;
+  padding: 0% 10%;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.bloc_images img{
+  width: 25%;
+  height: auto;  
+  margin: 0% 3% 2% 3%;
+}
+
 button {
   display: inline-block;
   background-color: #C6A237;
@@ -154,7 +189,7 @@ footer{
   display: flex;
   justify-content: center;
   position: relative;
-  top: 70px;  
+  top: 100px;  
 }
 
 footer p{

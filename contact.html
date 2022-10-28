@@ -34,24 +34,46 @@
 			</ul>
 		</nav>
 	</header>
-	<div class="formulaire">
-		<form action="Envois_Mail.php" method="post">
 
-	      Nom <input type="text" name="nom" id=""><br>
-	      Prénom <input type="text" name="prenom" id=""><br>
-	      Teléphone <input type="tel" name="telephone" id=""><br>
-	      Mail<input type="email" name="mail" id=""><br>
-	      Objet<input type="text" name="objet" id=""><br><br>
+	<section class="page">
+		<h1>NOUS CONTACTER</h1>
+		<div class="formulaire">
+			<form action="Envois_Mail.php" method="post">
+				<div class="sous_form">
+					<p>Nom*</p>
+					<input type="text" name="nom" id="">
+				</div>
+				<div class="sous_form">
+					<p>Prenom*</p>
+					<input type="text" name="prenom" id="">
+				</div>
+				<div class="sous_form"> 
+					<p>Teléphone*</p>
+					<input type="tel" name="telephone" id="">
+				</div>
+				<div class="sous_form">
+					<p>Mail*</p>
+					<input type="email" name="mail" id="">
+				</div>      
+				<div class="sous_form">
+					<p>Message*</p>
+					<input type="text" name="objet" id=""><br><br>
+				</div>       
 
-	      <input type="submit" value="Envoyer le mail">
+		      <div class="envoi">
+		      	<input type="submit" value="Envoyer le mail">
+		      </div>
 
-	    </form>	
-	</div>
+		    </form>	
+		</div>
+	</section>
+
+	<footer>
+		<p>Copyright 2022 - DLS GROUP</p>
+	</footer>
 	
 </body>
 
-<footer>
-	<p>Copyright 2022 - DLS GROUP</p>
-</footer>
+	
 
 </html>

@@ -11,6 +11,9 @@ body{
   color: white;
   font-family: 'Roboto';
   margin: 0px;
+  background-image: url(bg_contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a{
@@ -135,7 +138,31 @@ nav > ul > li:hover {
 
 .formulaire{
   position: relative;
-  top: 200px;
+  top: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.sous_form{
+  display: flex;
+  width: 500px;
+}
+
+.sous_form p{
+  width: 30%;
+}
+
+.sous_form input{
+  width: 70%;
+}
+
+.envoi{
+  display: flex;
+  justify-content: flex-end;
 }
 
 button {
@@ -159,7 +186,7 @@ footer{
   display: flex;
   justify-content: center;
   position: relative;
-  top: 100px;
+  top: 200px;
 }
 
 footer p{

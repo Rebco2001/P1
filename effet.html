@@ -14,6 +14,8 @@
 	<script src="https://kit.fontawesome.com/a0632bfd7d.js" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="articles.css" />
+	<link rel="stylesheet" media="screen and (max-width: 1000px)" href="index_s.css" />
+
 	<title>DLS-Location Effets Spéciaux </title>
 </head>
 
@@ -23,6 +25,38 @@
 			<a href="index.html"><p class="logo">DLS GROUP</p></a>
 			<a href="" class="a_num"><div class="logo_num"><i class="fa-solid fa-phone"></i><p>01.23.45.67.89</p></div></a>
 		</div>
+		
+
+
+		<div class="topnav">
+		  <a href="index.html"><p class="logo">DLS GROUP</p><span class="a_num"><i class="fa-solid fa-phone"></i><p>01.23.45.67.89</p></span></a>
+		  <div id="myLinks">
+		    <a href="index.html">ACCUEIL</a>
+			<a href="about.html">A PROPOS</a>
+			<a href="led.html">ÉCRAN LED</a>
+			<a href="lumiere.html">ECLAIRAGES</a>
+			<a href="son.html">SONORISATION</a>
+			<a href="effet.html">EFFETS SPECIAUX</a>
+			<a href="contact.html">NOUS CONTACTER</a>
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+		</div>
+
+		<script>
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		  }
+		}
+		</script>
+
+
+
 		<nav>
 			<ul class="menu">
 			    <li><a href="index.html">ACCUEIL</a></li>

@@ -57,6 +57,7 @@ header .menu-deroulant ul{
 
 .a_num{
   display: flex;
+  align-items: center;
 }
 
 .logo_num{
@@ -77,6 +78,10 @@ header .menu-deroulant ul{
 
 .logo{
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
+}
+
+.topnav{
+  display: none;
 }
 
 nav {

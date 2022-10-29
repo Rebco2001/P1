@@ -156,7 +156,7 @@ form{
   width: 30%;
 }
 
-.sous_form input{
+.sous_form input, textarea{
   width: 70%;
 }
 

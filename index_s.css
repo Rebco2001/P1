@@ -1,0 +1,13 @@
+body{
+
+}
+
+.nav{
+  width: 80%;
+  text-align: right;
+  font-size: 40px;
+}
+
+.menu{
+	display: none;
+}

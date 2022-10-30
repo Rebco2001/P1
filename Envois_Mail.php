@@ -6,12 +6,17 @@ $tel = $_POST['telephone'];
 $objet = $_POST['objet'];
 $mail = $_POST['mail'];
 
-$total_contenu =  'Nom : '.$nom . '<br> Prénom : '. $prenom . '<br> Téléphone : '. $tel . '<br> Mail : '. $mail. '<br> Objet : '. $objet ;
 
-echo $total_contenu;
+$headers[] = 'MIME-Version: 1.0';
+$headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
-mail("yoel.illouz@gmail.com", $objet, $total_contenu);
+$total_contenu =  "<html>Nom : $nom <br> Prénom : $prenom <br> Téléphone : $tel <br> Mail : $mail <br> Objet : $objet </html>" ;
 
+
+mail("rebecca.illouz13@gmail.com", $objet, $total_contenu, implode("\r\n", $headers));
+
+
+echo "<script>window.location = 'http://loyaux-services.fr/dylan/index.html' </script>";
 
 
 ?>

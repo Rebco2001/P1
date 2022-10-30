@@ -175,6 +175,9 @@ nav > ul > li:hover {
   padding: 0% 10%;
   flex-wrap: wrap;
   width: 80%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .bloc_images img{
@@ -258,20 +261,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.bloc_images{
-  display: flex;
-  padding: 0% 10%;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-}
-
-f{
-  width: 25%;
-  height: auto;  
-  margin: 0% 3% 2% 3%;
 }
 
 .descriptif i{

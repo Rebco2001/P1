@@ -65,6 +65,10 @@ body {
   margin-bottom: 0px;
 }
 
+.sous_chiffre p{
+  font-size: 12px;
+}
+
 .a_num{
   line-height: 12px;
 }
@@ -90,9 +94,14 @@ header{
   width: 85%;
 }
 
+.bloc_images{
+  justify-content: center;
+}
+
 .bloc_images img{
   margin-bottom: 10px;
-  width: 100%;
+  width: 200px;
+  height: 200px;
 }
 
 .sous_form input, textarea {
@@ -111,10 +120,12 @@ header{
 
 .description{
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .description img{
-  width: 100%;
+  width: 200px;
+  height: 200px;
 }
 
 .description p{
@@ -127,4 +138,62 @@ header{
 
 .container{
   display: none;
+}
+
+.presentation{
+  height: 50vh;
+}
+
+.presentation_texte{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.bouton_catalogue {
+  display: flex;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.presentation_image_1{
+  width: 100%;
+}
+
+.presentation_image_1 img{
+  width: 100%;
+  height: 200px;
+}
+
+.images_3 img{
+  width: 100%;
+  height: 200px;
+}
+
+.images_3{
+  row-gap: 20px;
+}
+
+.sous_procss {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+  row-gap: 20px;
+}
+
+.boutons button{
+  width: 40%;
+  font-size: 12px;
+}
+
+.boutons a{
+  width: 40%;
+  font-size: 12px;
+}
+
+.sous_chiffre h3{
+  font-size: 20px;
 }

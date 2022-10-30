@@ -64,6 +64,7 @@ header .menu-deroulant ul{
 
 .a_num{
   display: flex;
+  align-items: center;
 }
 
 .logo_num{

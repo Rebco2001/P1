@@ -202,6 +202,7 @@ button:hover {
 .bouton_catalogue{
   display: flex;
   column-gap: 20px;
+  align-items: center;
 }
 
 .sec_2{

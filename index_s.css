@@ -94,6 +94,10 @@ header{
   width: 85%;
 }
 
+.articles img{
+  width: 100%;
+}
+
 .bloc_images{
   justify-content: center;
 }

@@ -198,6 +198,10 @@ header{
   font-size: 12px;
 }
 
+button{
+  width: 250px;
+}
+
 .sous_chiffre h3{
   font-size: 20px;
 }

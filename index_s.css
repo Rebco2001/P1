@@ -51,7 +51,7 @@ body {
   top: 5px;
   right: 50px;
   font-size: 40px;
-  width: 40%;
+  width: 30%;
   text-align: right;
 }
 
@@ -202,7 +202,7 @@ header{
 .boutons button{
   width: 40%;
   font-size: 12px;
-  margin-bottom:20px;
+  height: 50px;
 }
 
 .boutons a{

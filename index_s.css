@@ -89,3 +89,22 @@ header{
 .articles{
   width: 85%;
 }
+
+.bloc_images img{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.sous_form input, textarea {
+  width: 100%;
+}
+
+.sous_form {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.sous_form{
+  width: 100%;
+}

@@ -154,10 +154,13 @@ header{
   flex-direction: column;
   flex-wrap: wrap;
   row-gap: 20px;
+  grid-row-gap: 20px;
+
 }
 
 .bouton_catalogue {
   display: flex;
+  grid-row-gap: 20px;
   row-gap: 20px;
   flex-wrap: wrap;
 }
@@ -178,6 +181,7 @@ header{
 
 .images_3{
   row-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .sous_procss {
@@ -186,6 +190,7 @@ header{
   flex-direction: column;
   height: auto;
   row-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .boutons button{

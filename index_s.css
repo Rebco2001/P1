@@ -77,7 +77,6 @@ header{
   position: fixed;
   display: flex;
   background-color: rgba(0, 0, 0, 0.90);
-  padding: 1%;
   width: 100%;
   z-index: 2;
   align-items: center;
@@ -92,12 +91,12 @@ header{
 
 .articles{
   width: 85%;
-  margin: 1%;
+  margin: 2%;
 }
 
 .articles img{
   width: 100%;
-  margin: 1%;
+  margin: 2%;
 }
 
 .bloc_images{
@@ -108,7 +107,7 @@ header{
   margin-bottom: 10px;
   width: 200px;
   height: 200px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .sous_form input, textarea {
@@ -133,12 +132,12 @@ header{
 .description img{
   width: 200px;
   height: 200px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .description p{
   width: 100%;
-  margin: 1%;
+  margin: 2%;
 }
 
 .sous_chiffre {
@@ -161,7 +160,7 @@ header{
   flex-wrap: wrap;
   row-gap: 20px;
   grid-row-gap: 20px;
-  margin: 1%;
+  margin: 2%;
 
 }
 
@@ -170,30 +169,30 @@ header{
   grid-row-gap: 20px;
   row-gap: 20px;
   flex-wrap: wrap;
-  margin: 1%;
+  margin: 2%;
 }
 
 .presentation_image_1{
   width: 100%;
-  margin: 1%;
+  margin: 2%;
 }
 
 .presentation_image_1 img{
   width: 100%;
   height: 200px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .images_3 img{
   width: 100%;
   height: 200px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .images_3{
   row-gap: 20px;
   grid-row-gap: 20px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .sous_procss {
@@ -203,27 +202,27 @@ header{
   height: auto;
   row-gap: 20px;
   grid-row-gap: 20px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .boutons button{
   width: 40%;
   font-size: 12px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .boutons a{
   width: 40%;
   font-size: 12px;
-  margin: 1%;
+  margin: 2%;
 }
 
 button{
   width: 250px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .sous_chiffre h3{
   font-size: 20px;
-  margin: 1%;
+  margin: 2%;
 }

@@ -20,7 +20,7 @@
 	<title>DLS-Location Ecran Led</title>
 </head>
 
-<body>
+<body onload="myFunction()">
 	<header class="header">
 		<div class="div_logo">
 			<a href="index.html"><p class="logo">DLS GROUP</p></a>
@@ -71,6 +71,16 @@
 		</nav>
 	</header>
 
+	<button id="myBtn">Open Modal</button>
+
+	<div id="myModal" class="modal">
+	  <div class="modal-content">
+	    <span class="close">&times;</span>
+	    <img src="foot.png">
+	    <p>Réservez dès maintenant votre écran LED pour la Coupe du Monde 2022 !</p>
+	  </div>
+	</div>
+
 	<div class="page">
 		<h1>LOCATION ÉCRAN LED</h1>
 		<div class="boutons">
@@ -84,7 +94,7 @@
 				<div class="articles_texte">
 					<h3>Mur Led Vidéo de qualité</h3>
 					<p>
-						Location mur de led P2.5<br>Location mur de led P2.9<br>Location mur de led P3.9<br>Location mur de led P6<br>
+						Location mur de led P2.5<br>Location mur de led P2.9<br>Location mur de led P3.9<br>
 					</p>
 				</div>
 				<a href="contact.html"><button>DEMANDE DE DEVIS</button></a>	
@@ -92,7 +102,7 @@
 			<div class="articles">
 				<img src="led_art_2.jpeg">
 				<div class="articles_texte">
-					<h3>Mur Led Vidéo en extérieur</h3>
+					<h3>Mur Led Vidéo en extérieur/Outside</h3>
 					<p>
 						Stade, Concert, Cinéma, Mariage, Château, Evénement,...
 					</p>
@@ -102,7 +112,7 @@
 			<div class="articles">
 				<img src="led_art_3.jpeg">
 				<div class="articles_texte">
-					<h3>Mur Led Vidéo en intérieur</h3>
+					<h3>Mur Led Vidéo en intérieur/Inside</h3>
 					<p>
 						Salle de réception, salle de séminaire, stade, salle de concert, salle d’exposition, studio, clip, production
 					</p>
@@ -124,7 +134,7 @@
 				</ul>
 			</p>
 			<p class="jaune">
-				Nos techniciens spécialistes de l’audiovisuel peuvent intervenir, si vous le souhaitez, sur votre site évènementiel afin de vous épauler dans la mise en place et la gestion des matériels.
+				Nos techniciens spécialistes de l’audiovisuel interviendront sur votre site évènementiel afin de vous épauler dans la mise en place et la gestion des matériels.
 			</p>
 		</div>
 
@@ -142,6 +152,34 @@
 			</div>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on the button, open the modal
+		function myFunction() {
+		  modal.style.display = "block";
+		}
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+	</script>
 </body>
 
 <footer>

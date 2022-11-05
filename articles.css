@@ -174,7 +174,7 @@ nav > ul > li:hover {
   display: flex;
   padding: 0% 10%;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -253,7 +253,7 @@ button:hover {
 .gallerie img{
   border-style: none;
   object-fit: cover;
-  width: 33%;
+  width: 400px;
   height: 200px;
 }
 

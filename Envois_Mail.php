@@ -16,7 +16,7 @@ $total_contenu =  "<html>Nom : $nom <br> Prénom : $prenom <br> Téléphone : $t
 mail("rebecca.illouz13@gmail.com", $objet, $total_contenu, implode("\r\n", $headers));
 
 
-echo "<script>window.location = 'http://loyaux-services.fr/dylan/index.html' </script>";
+echo "<script>window.location = 'http://location-mur-de-led.com/index.html' </script>";
 
 
 ?>

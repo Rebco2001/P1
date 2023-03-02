@@ -32,6 +32,7 @@ h2 {
 p{
 	margin: 0px;
 	padding: 0px;
+    margin-bottom: 20px;
 }
 
 header p{
@@ -385,7 +386,7 @@ footer li {
 		color: white;
 		top: 1.5vh;
 		font-size: 40px;
-		width: 95%;
+		width: 90%;
 		text-align: right;
 	}
 	

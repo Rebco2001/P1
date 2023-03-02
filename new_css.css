@@ -345,6 +345,7 @@ footer li {
 		list-style: none;
 		line-height: 40px;
 		padding: 0% 2%;
+        background-color: rgb(3, 7, 25, 0.5);
 	}
 	
 	.topnav a {

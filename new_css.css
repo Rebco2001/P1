@@ -309,6 +309,27 @@ footer li {
 }
 
 @media (max-width: 770px) { 
+    .images_3 img {
+        object-fit: cover;
+        height: 35vh;
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .sous_procss {
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    footer div{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
 	html,body  
 	{  
 	overflow-x:hidden;  
@@ -330,7 +351,7 @@ footer li {
 	}
 
 	.topnav {
-		overflow: hidden;
+		overflow-x: hidden;
 		position: relative;
 		display: block;
 		width: 100%;
